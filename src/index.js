@@ -7,9 +7,9 @@ import Total from "./components/Total";
 const App = () => {
   return (
     <div>
-      <Header />
-      <Content />
-      <Total />
+      <Header course = "Half Stack application development"/>
+      <Content part1 = "Fundamentals of React" exercises1 = {10} part2 = "Using props to pass data" exercises2 = {7} part3 = "State of a component" exercises3 = {14} />
+      <Total exercises1 = {10}  exercises2 = {7}  exercises3 = {14} />
     </div>
   );
 };
